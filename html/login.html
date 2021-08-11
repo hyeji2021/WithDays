@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WithDays</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <div class="center_wrapper">
+        <div class="login">
+            <div>
+                <h2>로그인</h2>
+            </div>
+            <div>
+                <h4>Email</h4>
+                <input type="email" placeholder="enter your email">
+            </div>
+            <div>
+                <h4>Password</h4>
+                <input type="password">
+            </div>
+            <div>
+                <h4></h4>
+                <input class="submit" type="submit" placeholder="Submit">
+            </div>
+        </div>
+    </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-analytics.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+        apiKey: "AIzaSyCnaKvdoHG5M8XFG-JRTIBjJHAPiK6n_28",
+        authDomain: "withdays-93d57.firebaseapp.com",
+        databaseURL: "https://withdays-93d57-default-rtdb.asia-southeast1.firebasedatabase.app",
+        projectId: "withdays-93d57",
+        storageBucket: "withdays-93d57.appspot.com",
+        messagingSenderId: "1005583991958",
+        appId: "1:1005583991958:web:9b3d5b716e507ebc67aeb7",
+        measurementId: "G-DZ05T1KY1T"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    </script>
+
+</body>
+
+</html>

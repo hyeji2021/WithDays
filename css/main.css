@@ -1,0 +1,27 @@
+/*공통 스타일*/
+a {
+    text-decoration: none;
+}
+
+/*main.html에 대한 스타일*/
+button {
+    border-radius: 30px;
+    border: 1px solid;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+/*login.html에 대한 스타일*/
+
+
+/*join.html에 대한 스타일*/
+input {
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: lightgray;
+    height: 30px;
+    padding: 0px 20px;
+    outline: none;
+}
+
